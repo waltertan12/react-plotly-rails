@@ -20,7 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-To use this gem, simply add `//= react-plotly` to `app/assets/application.js`. Make sure this line is below `//= react`.
+To use this gem, add the following to `app/assets/application.js`:
+
+`````
+//= require plotly
+//= require react-plotly
+````` 
+
+Make sure this line is below `//= require react`.
 
 ## How-To
 
