@@ -1,6 +1,6 @@
 # React-Ploty for Rails
 
-A React component that builds PlotlyJS graphs
+A React component that builds PlotlyJS graphs. Click [here](http://github.com/michaelAlvarino/React-Plotly) for more information about React-Plotly.
 
 ## Installation
 
@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-To use this gem, simply add `react-plotly` to to `application.js` in the asset pipeline.
+To use this gem, simply add `//= react-plotly` to `app/assets/application.js`. Make sure this line is below `//= react`.
 
 ## How-To
 
