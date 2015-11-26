@@ -1,8 +1,6 @@
-# React::Plotly::Rails
+# React-Ploty for Rails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/react/plotly/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A React component that builds PlotlyJS graphs
 
 ## Installation
 
@@ -22,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To use this gem, simply add `react-plotly` to to `application.js` in the asset pipeline.
+
+## How-To
+
+Each component implements a corresponding plotly chart. As props they require containerId, data, and layout. ContainerId simply becomes the id of the div containing the chart (must be unique?). For documentation on what goes into data and layout, see the [plotly documentation](https://plot.ly/javascript/reference/).
 
 ## Development
 
@@ -32,7 +34,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/react-plotly-rails.
+Bug reports and pull requests are welcome on GitHub at https://github.com/waltertan12/react-plotly-rails.
 
 
 ## License

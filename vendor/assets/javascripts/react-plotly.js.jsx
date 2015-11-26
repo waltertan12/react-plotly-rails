@@ -1,9 +1,9 @@
 (function (root) {
-  root.Graph = React.createClass({
-    propTypes: {
+  root.Plot = React.createClass({
+    propTypes: { 
       containerId: React.PropTypes.string.isRequired,
       data: React.PropTypes.array.isRequired,
-      layout: React.PropTypes.object.isRequired
+      layout: React.PropTypes.object
     },
     componentDidMount: function () {
       this.plot(this.props);
@@ -19,7 +19,7 @@
     },
     render: function () {
       return (
-        <div id={this.props.containerId} />
+        <div id={this.props.containerId}></div>      
       );
     }
   });
